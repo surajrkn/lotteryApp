@@ -1,1 +1,1 @@
-# lotteryApp by suraj
+# index.html
