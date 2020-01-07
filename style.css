@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 100%;
+}
+input {
+    padding: 5px;
+}
+input[type='submit'] {
+    background: green;
+    border: 0;
+    color: #fff;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.success {
+    color: green;
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+}
